@@ -1,7 +1,37 @@
 *{
     font-family:'Courier New', Courier, monospace;
+    color: slategray;
 }
 
 body {
     background-color: rgb(250, 242, 233);
 }
+
+header nav {
+    text-align: right;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    color: slategray
+}
+
+header nav ul li {
+    margin: 10px 20px;
+}
+
+header div {
+    text-align: center;
+}
+
+header div h2 {
+    text-align: center;
+    display: block;
+    font-size: 90%;
+}
+

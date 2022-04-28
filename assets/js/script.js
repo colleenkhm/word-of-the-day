@@ -1,6 +1,25 @@
 const apiLink = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}"`;
 const word = '';
 
+function randomNumber {
+
+}
+
+function getWord {
+
+}
+
+function getDefinition {
+
+}
+
+function displayWord {
+
+}
+
+function displayDefinition {
+    
+}
 // TODO: randomize id number from length of array of words in dictionary API
 // TODO: use that id number to select a random word
 // TODO: if that word is fewer than 4 letters, re-randomize (maybe narrow down data set to words fewer than 5 letters first and then randomize remaining data? feels like that would take forever)
@@ -14,4 +33,5 @@ const word = '';
 // or upload a file if/when I can figure that out 
 // calendar so if you missed a word you can go back and click on the word/day fill that in
 // each profile is a calendar-style display with each day having the word of that day prominently displayed/you can click on that day and input the information
+// utilize module lessons by having days that user has not submitted an entry for highlighted in a different color
 
