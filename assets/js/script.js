@@ -1,25 +1,32 @@
 const apiLink = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}"`;
 const word = '';
 
-function randomNumber {
+// function getDate(){
 
-}
+// }
+// function confirmNewDay() {
 
-function getWord {
+// }
+// function randomNumber() {
 
-}
+// }
 
-function getDefinition {
+// function getWord() {
+    // if word.length < 4, re-run randomNumber()
+    // might be easier to create own database of words
+// }
 
-}
+// function getDefinition() {
 
-function displayWord {
+// }
 
-}
+// function displayWord() {
 
-function displayDefinition {
+// }
+
+// function displayDefinition {
     
-}
+// }
 // TODO: randomize id number from length of array of words in dictionary API
 // TODO: use that id number to select a random word
 // TODO: if that word is fewer than 4 letters, re-randomize (maybe narrow down data set to words fewer than 5 letters first and then randomize remaining data? feels like that would take forever)
