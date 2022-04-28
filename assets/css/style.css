@@ -21,7 +21,6 @@ header {
     background-position: center;
     background-attachment: fixed;
     background-position: 80%;
-    z-element: 9999;
 }
 
 a:hover {
