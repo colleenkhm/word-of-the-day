@@ -22,3 +22,8 @@ WHEN I view a submission
 THEN I am presented with a link to the artist's page
 WHEN I click the link to the artists page
 THEN I am taken to a page that displays all of the artist's works from previous word prompts
+
+## Website
+https://colleenkhm.github.io/word-of-the-day/
+
+[Website] (/assets/justaword-screenshot.jpg)

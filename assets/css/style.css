@@ -5,6 +5,7 @@
 
 body {
     background-color: rgb(250, 242, 233);
+    margin: 0px 20px;
 }
 
 header {
@@ -74,19 +75,28 @@ main {
     display: block;
 }
 
-.title {
-    font-size: 20px;
+footer {
+    text-align: center;
+    padding-top: 150px;
 }
 
-.word {
+.btn {
+    margin-top: 50px;
+    color: white;
+    background-color: slategray;
+
+}
+
+#word {
+    margin-top: 100px;
     font-size: 100px;
 }
 
-.definition {
+#definition {
     font-size: 30px;
 }
 
-.info {
+#related-words {
     font-size: 18px;
 }
 

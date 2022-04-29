@@ -1,23 +1,30 @@
 const apiLink = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}"`;
-const word = '';
+var word = '';
+var wordDisplayed = document.getElementById("word");
+var definitionDisplayed = document.getElementById("definition");
+var synonymsDisplayed = document.getElementById("related-words");
+
 
 // function getDate(){
 
 // }
-// function confirmNewDay() {
+function confirmNewDay() {
+    //get today's date and check if it is a different date than it was last time function was run
+    var date = new Date().toLocaleDateString();
+    if (localStorage.app_date == date) {
+        return false
+    }
 
-// }
-// function randomNumber() {
-
-// }
+    localStorage.app_date = date;
+    return true
+}
 
 // function getWord() {
-    // if word.length < 4, re-run randomNumber()
-    // might be easier to create own database of words
+    // pull from database of words I create
 // }
 
 // function getDefinition() {
-
+    // pull from dictionary API
 // }
 
 // function displayWord() {
