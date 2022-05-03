@@ -1,13 +1,3 @@
-const apiLink = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}"`;
-var word = '';
-var wordDisplayed = document.getElementById("word");
-var definitionDisplayed = document.getElementById("definition");
-var synonymsDisplayed = document.getElementById("related-words");
-
-
-// function getDate(){
-
-// }
 function confirmNewDay() {
     //get today's date and check if it is a different date than it was last time function was run
     var date = new Date().toLocaleDateString();
@@ -46,6 +36,55 @@ function confirmNewDay() {
 // or write about it
 // or upload a file if/when I can figure that out 
 // calendar so if you missed a word you can go back and click on the word/day fill that in
+
+document.getElementById("app").innerHTML = `
+<!-- Parent container for the calendar month -->
+<div class="calendar-month">
+  <!-- The calendar header -->
+  <section class="calendar-month-header">
+    <!-- Month name -->
+    <div
+      id="selected-month"
+      class="calendar-month-header-selected-month"
+    >
+      July 2020
+    </div>
+
+    <!-- Pagination -->
+    <div class="calendar-month-header-selectors">
+      <span id="previous-month-selector"><</span>
+      <span id="present-month-selector">Today</span>
+      <span id="next-month-selector">></span>
+    </div>
+  </section>
+  
+  <!-- Calendar grid header -->
+  <ol
+    id="days-of-week"
+    class="day-of-week"
+  >
+    <li>Mon</li>
+    ...
+    <li>Sun</li>
+  </ol>
+
+  <!-- Calendar grid -->
+  <ol
+    id="calendar-days"
+    class="date-grid"
+  >
+    <li class="calendar-day">
+      <span>
+        1
+      </span>
+      ...
+      <span>
+        29
+      </span>
+    </li>
+  </ol>
+</div>
+`;
 // each profile is a calendar-style display with each day having the word of that day prominently displayed/you can click on that day and input the information
 // utilize module lessons by having days that user has not submitted an entry for highlighted in a different color
 
