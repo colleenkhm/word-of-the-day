@@ -1,0 +1,27 @@
+{
+  "name": "word-of-the-day",
+  "version": "1.0.0",
+  "description": "An app that randomly generates a word every two days and users can submit writing/artwork inspired by that word.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colleenkhm/word-of-the-day.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colleenkhm/word-of-the-day/issues"
+  },
+  "homepage": "https://github.com/colleenkhm/word-of-the-day#readme",
+  "dependencies": {
+    "dayjs": "^1.11.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  }
+}
