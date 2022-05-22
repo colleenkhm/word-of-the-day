@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS prompted_db;
+CREATE DATABASE prompted_db;
