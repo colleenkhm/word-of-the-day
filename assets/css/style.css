@@ -1,16 +1,16 @@
 *{
     font-family:'Courier New', Courier, monospace;
-    color: slategray;
 }
 
 body {
     background-color: rgb(250, 242, 233);
     margin: 0px 20px;
+    color: slategray;
 }
 
 header {
     padding: 20px 35px;
-    background-color: var(--tertiary-color);
+    /* background-color: var(--tertiary-color); */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -77,6 +77,15 @@ main {
 footer {
     text-align: center;
     padding-top: 150px;
+}
+
+.about-body {
+    background-color: powderblue;
+    color: white;
+}
+
+.archive-body {
+    background-color: #aaf0d1;
 }
 
 .btn {
