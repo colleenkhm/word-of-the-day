@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <title>Calendar</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../assets/css/calendar.css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
+    <style> A{text-decoration: none;}</style>
   </head>
 
-  <body>
-    <div id="app"></div>
-
-    <!-- <script src="../assets/js/script.js"></script> -->
+  <body onload="renderDate()">
+    <div class="wrapper">
+      <div class="calendar">
+        <div class="month">
+          <div class="prev" onclick="moveDate('prev')">
+          <span>&#10094;</span>
+          </div>
+          <h2 id="month"></h2>
+          <p id="date_str"></p>
+          <div class="next" onclick="moveDate('next')">
+            <span>&#10095</span>
+          </div>
+        </div>
+        <div class="weekdays">
+          <div>Sun</div>
+          <div>Mon</div>
+          <div>Tue</div>
+          <div>Wed</div>
+          <div>Thu</div>
+          <div>Fri</div>
+          <div>Sat</div>
+        </div>
+        <div class="days"></div>
+      </div>
+    </div>
     <script src="../assets/js/calendar.js"></script>
   </body>
 </html>
