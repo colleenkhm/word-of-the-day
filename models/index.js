@@ -24,10 +24,9 @@ Comment.belongsTo(Entry, {
 })
 // User belongs to comment
 
-// might need entryComment model to deal with file path issues
 
 module.exports = {
     Entry,
     Comment,
-    User
+    User,
 }

@@ -6,8 +6,8 @@
 }
 
 .calendar {
-  margin: auto;
-  width: 600px;
+  margin: 200px auto;
+  width: 80%;
   background-color: #fff;
   box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.2);
 }
@@ -83,7 +83,7 @@
 }
 
 #month {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
 }
   
